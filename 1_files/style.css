@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Momo+Signature&family=Press+Start+2P&display=swap');
+
+
 .farmilka-text {
     background-color: black;
     padding: 10px;
@@ -19,4 +22,91 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.only-arbitrage-section {
+    width: 100;
+
+    background-color: #000000;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+}
+
+.only-arbitrage-section h2 {
+    color: #00eeff;
+    font-family: "Lacquer", system-ui;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.only-arbitrage-section h3 {
+    color: #00eeff;
+}
+
+.only-arbitrage-section>div>div {
+    background-color: black;
+
+}
+
+.only-arbitrage-section * {
+    color: #ffffff;
+
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.only-arbitrage-section .farmilka-text {
+    color: yellow;
+    font-size: 16px;
+}
+
+.farbitrage,
+.farmilka {
+    color: #ff0000;
+    font-family: "Lacquer", system-ui;
+    font-weight: bold;
+}
+
+.farmilka {
+    color: yellow;
+}
+
+.small {
+    font-size: 18px;
+}
+
+
+.aqua,
+.farmilka_price {
+    color: #00eeff;
+    font-family: "Lacquer", system-ui;
+    font-size: 50px;
+}
+
+.farmilka_price {
+    color: yellow;
+    font-size: 40px;
+}
+
+.full {
+    border-color: #001aff;
+}
+
+
+.yellow {
+    border-color: #ff9900;
+    color: yellow;
+}
+
+.obtn {
+    background-color: #00eeff;
+    border: 0;
+    color: black;
+    font-family: "Lacquer", system-ui;
+    font-size: 25px;
+}
+
+.obtn:hover {
+    background-color: #000000;
+    color: #00eeff;
 }
