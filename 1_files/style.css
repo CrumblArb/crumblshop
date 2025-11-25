@@ -8,6 +8,7 @@
     font-family: "Press Start 2P";
     font-size: 10px;
     border-radius: 10px;
+    display: none;
 }
 
 .blabla {
@@ -102,11 +103,28 @@
     background-color: #00eeff;
     border: 0;
     color: black;
-    font-family: "Lacquer", system-ui;
-    font-size: 25px;
+    font-family: "Press Start 2P";
+    font-size: 20px;
 }
 
 .obtn:hover {
     background-color: #000000;
     color: #00eeff;
+    display: flex;
+    flex-direction: column;
+}
+
+.onlyARBITRAGE {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 187, 0);
+    color: black;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 1px;
 }
